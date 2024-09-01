@@ -1,5 +1,7 @@
 # Holesome Birthday Party
-### You just got invited to Spongebob's birthday! But he's decided to test your friendship with a series of challenges before granting you with the ticket of entrance. Can you prove that you're truly his friend and earn your entrance to this holesome birthday party?
+### Stats: Challenge was played by 2000+ users and 1000+ teams with 200+ solves.
+
+### Description: You just got invited to Spongebob's birthday! But he's decided to test your friendship with a series of challenges before granting you with the ticket of entrance. Can you prove that you're truly his friend and earn your entrance to this holesome birthday party?
 
 ### FLAG: UMASS{B3k3nIwH3rLP0oL~}
 
