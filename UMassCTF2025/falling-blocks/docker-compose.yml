@@ -1,0 +1,23 @@
+services:
+  redis:
+    image: redis:latest
+    container_name: redis
+    restart: unless-stopped
+    network_mode: bridge
+
+  node-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: my-node-app-container
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - SECRET_TOKEN=HARDER_TO_COOK_THAN_SOLVE32o578927
+      - FLAG=UMASS{F@lLiNgH@rD_0N_w3bS0cK3ts!437}
+    links:
+      - redis
+    network_mode: bridge
